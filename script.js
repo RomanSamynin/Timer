@@ -1,4 +1,4 @@
-/* const btn = document.querySelector('.btn');
+const btn = document.querySelector('.btn');
 let timerId,
     i = 0;
 
@@ -14,7 +14,9 @@ function logger() {
     console.log('text');
     i++;
 }
- */
+
+// recursive timer
+
 let id = setTimeout(function log(){
     console.log('Hello');
     id = setTimeout(log, 500);
